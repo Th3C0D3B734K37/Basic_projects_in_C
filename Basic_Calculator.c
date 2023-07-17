@@ -57,6 +57,10 @@ int main()
     }
     
   }
+  
+  if ( i < 1 || i > 4)
+    {
+        printf("\nInvalid Input\n");
+    }
   return 0;
 } 
-
